@@ -16,7 +16,7 @@ function polyfill() {
 
   // globals
   var Element = w.HTMLElement || w.Element;
-  var SCROLL_TIME = 200;
+  var SCROLL_TIME = 468;
 
   // object gathering original scroll methods
   var original = {

@@ -13,7 +13,7 @@
 	-webkit-transition-property: margin-left;
 	-webkit-transition-duration: 500ms;
 }
-#bar li div.top img { margin-left:10px; margin-top:15px; }
+#bar li div.top img { margin-left:10px; margin-top:px; }
 
 /* Bar bottom */
 #bar li div.bottom { position:relative; margin:5px 0; width:50px;
@@ -64,9 +64,3 @@
 #javascript:hover div.bottom { z-index:992; background-color:#698d54; width:150px;
 	background:-moz-linear-gradient(-90deg, #698d54, #506b40); background:-webkit-gradient(linear, 0 top, 0 bottom, from(#698d54), to(#506b40)); }
 
-/* Mac Mini bar */
-#angular div.top { z-index:91; }
-#angular div.bottom { z-index:90; height:120px; }
-#angular:hover div.top { z-index:991; background-color:#3f1150; margin-left:130px; }
-#angular:hover div.bottom { z-index:990; background-color:#340e43; width:170px;
-	background:-moz-linear-gradient(-90deg, #340e43, #1a0721); background:-webkit-gradient(linear, 0 top, 0 bottom, from(#340e43), to(#1a0721)); }
